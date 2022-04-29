@@ -47,16 +47,45 @@
         <div>
             <!-- login and signup -->
             <form action="/back.py">
-                <label for="uname"><b>Username</b></label>
-                <input type="text" placeholder="Enter Username" name="uname" required>
+                <label for="uname"><b>Username / Name -:</b>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+                </label>
                 <br><br>
-                <label for="psw"><b>Password</b></label>
-                <input type="password" placeholder="Enter Password" name="psw" required>
+                <label for="psw"><b>Password -:</b>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+                </label>
                 <br><br>
                 <button type="submit">Login</button>
             </form>
             <form action="">
                 <button type="submit">Sign up</button>
+            </form>
+                <hr>
+            <!-- registration form -->
+            <h3>Registration Form</h3>
+            <form action="">
+                <!-- Enter Name -: <input type="text"><br><br>
+                Enter Ph.No -: <input type="text"><br><br>
+                Enter Amount(In Kgs) -: <input type="text"> -->
+                <label for="reg_name"><b>Enter Name/Username -:</b>
+                    <input type="text" name="reg_name"><br><br>
+                </label>
+
+                <label for="ph"><b>Enter Ph.No -:</b>
+                    <input type="number" name="ph"><br><br>
+                </label>
+
+                <b>Enter Address -:</b></Address><textarea rows="4" cols="50" name="address" form="" placeholder="Enter Address.."></textarea><br><br>
+
+                <label for="kgs"><b>Enter Amount(In Kgs) -:</b>
+                    <input type="text" name="kgs"><br><br>
+                </label>
+
+                <label for="pic"><b>Attach Your Aadhar Card -:</b>
+                    <input type="file" name="aadhar" id="aadhar">
+                </label>
+
+                
             </form>
         </div>
     </main>
