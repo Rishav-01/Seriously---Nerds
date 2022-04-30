@@ -50,10 +50,17 @@
             </label>
             <input type="password" placeholder="Create Password" name="psw" required>
             <br><br>
-            <label for="vrf">
+            <select name="id_proof" id="id_proof">
+                <option value="def">Select proof id</option>
+                <option value="aadhar">Aadhar Card</option>
+                <option value="pass">Passport</option>
+                <option value="pan">Pan Card</option>
+                <option value="dl">Driving License</option>
+            </select>
+            <label for="id_proof">
                 Verification:
             </label>
-            <input type="file" id="img" name="img" accept="image/*">
+            <input type="file" id="img" name="img" accept="file/*">
         </fieldset>
         <button type="submit" value="submit">Submit</button>
         <button type="reset" value="submit">Reset</button>
