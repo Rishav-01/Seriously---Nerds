@@ -6,5 +6,5 @@ In many functions and weddings, lots of food gets wasted and to minimise this, w
 
 People can fill a form in which they can fill that from where the food has to be taken and we can verfiy the person's / organization's name via any Identification Proof.
 
-Tech Stack used -> HTML, CSS, Javascript, MongoDB
+Tech Stack used -> HTML, CSS, Javascript, MongoDB \n
 Deployment Link - https://seriouslynerds.netlify.app/
